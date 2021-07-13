@@ -1,0 +1,48 @@
+#usuario {
+    border: 1px solid #ddd;
+    border-radius: .25rem 0 0 .25rem;
+    height: 2rem;
+    padding: 0 .5rem;
+}
+
+#usuario:focus, #usuario:active {
+    outline: none;
+    box-shadow: none;
+}
+
+#HomeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#Content {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#Button {
+    height: 2rem;
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    border-radius: 0 .25rem .25rem 0;
+}
+
+#Button:focus, #Button:active {
+    outline: none;
+        box-shadow: none;
+}
+
+#ErrorMessage {
+    display: block;
+    font-size: 0.65rem;
+    color: red;
+    margin-top: 1rem;
+    font-family: sans-serif;
+}
